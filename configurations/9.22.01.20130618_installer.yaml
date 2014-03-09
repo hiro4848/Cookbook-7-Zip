@@ -1,0 +1,18 @@
+---
+:ingredients:
+- :type: :installer
+  :installer_type: :msi
+  :source_url: http://sourceforge.net/projects/sevenzip/files/7-Zip/9.22/7z922.msi
+  :package_name: 7-Zip 9.22
+  :installer_options: /quiet
+  :support_32bit: true
+  :support_64bit: 
+- :type: :installer
+  :installer_type: :msi
+  :source_url: http://sourceforge.net/projects/sevenzip/files/7-Zip/9.22/7z922-x64.msi
+  :package_name: 7-Zip 9.22 (x64 edition)
+  :installer_options: /quiet
+  :support_32bit: 
+  :support_64bit: true
+:support_32bit: true
+:support_64bit: true
